@@ -6,6 +6,7 @@ light blue: #1c5380
 
 * {
   box-sizing: border-box;
+  /*border: 1px solid black;*/
 }
 
 body {
@@ -15,31 +16,121 @@ body {
   margin: 0;
 }
 
-section.top {
-  background-color: cadetblue;
-  height: 300px;
-  position: relative;
+div.top {
+  background-color: #4f7699;
+  height: 200px;
+  /*position: relative;*/
 }
 
-img.phones {
-  width: 20%;
+.container {
+  margin: 10%;
   position: absolute;
-  left: 16em;
-  top: 4em;
+  top: 3%;
+}
+
+div.left-box {
+  float: left;
+  width: 45%;
+}
+
+div.right-box {
+  float: right;
+  width: 55%
+  /*position: relative;*/
+}
+
+.top-right-box {
+  overflow: hidden;
+}
+
+div.ig-logo {
+  float: left;
+  width: 55%;
+}
+
+div.log-in {
+  float: right;
+  width: 33%;
+
+  margin-right: 2px;
+  padding: 5px;
+  padding-top: 11px;
+  margin-top: 0px;
+
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+p.log-in {
+  float: right;
+
+  margin: 0;
+  width: 65%;
+  padding: 2px;
+  padding-left: 0px;
+
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+
+
+img.phones {
+  width: 80%;
 }
 
 img.brand {
-  position: absolute;
-  top: 5em;
-  left: 35em;
+  width: 100%;
 }
 
-.content {
-  border-radius: 5px;
-  position: absolute;
-  top: 200px;
-  width: 40%;
-  right: 200px;
-  border-image: url(images/frame.png) 30 round;
+
+
+.content-box {
+  margin-top: 2%;
   background-color: white;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+div.content > h1 {
+  color: #4f7699;
+}
+
+h1 {
+  font-size: 18px;
+  width: 67%;
+  margin-left: 10px;
+}
+
+
+p {
+  clear: both;
+  font-size: 12px;
+  padding: 10px;
+}
+
+div.content > p {
+  padding: 0px;
+  margin: 5px 10px 10px;
+}
+
+.button-box {
+  width: 100%;
+  overflow:  hidden;
+}
+
+img.button {
+  float: right;
+  width: 100%;
+}
+
+.apple {
+  width: 45%;
+  float: left;
+}
+
+.android {
+  width: 42%;
+  float: right;
 }
