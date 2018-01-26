@@ -14,3 +14,32 @@ body {
   /*background-repeat: repeat;*/
   margin: 0;
 }
+
+section.top {
+  background-color: cadetblue;
+  height: 300px;
+  position: relative;
+}
+
+img.phones {
+  width: 20%;
+  position: absolute;
+  left: 16em;
+  top: 4em;
+}
+
+img.brand {
+  position: absolute;
+  top: 5em;
+  left: 35em;
+}
+
+.content {
+  border-radius: 5px;
+  position: absolute;
+  top: 200px;
+  width: 40%;
+  right: 200px;
+  border-image: url(images/frame.png) 30 round;
+  background-color: white;
+}
