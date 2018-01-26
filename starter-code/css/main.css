@@ -134,3 +134,21 @@ img.button {
   width: 42%;
   float: right;
 }
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  margin: 5% 15% 5%;
+}
+
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 2px;
+  font-size: 12px;
+}
+
+nav > p {
+  display: inline;
+}
